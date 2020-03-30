@@ -2,11 +2,12 @@ from flask import Flask,render_template, url_for , redirect, flash, request,send
 
 import numpy as np
 from PIL import Image
-from keras.preprocessing import image
+#from keras.preprocessing import image
 
 import os
-from tensorflow import keras
 import tensorflow
+from tensorflow import keras
+
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
